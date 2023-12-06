@@ -1,0 +1,9 @@
+apiVersion: 1
+
+datasources:
+  - name: Jaeger
+    type: jaeger
+    access: proxy 
+    # Access mode - proxy (server in the UI) or direct (browser in the UI).    
+    uid: f57b0fb1-03ee-4961-8031-10d24d3dd38c
+    url: http://jaeger:16686    
